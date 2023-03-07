@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:elevation="30dp"
+    android:layout_margin="10dp"
+    >
+
+
+    <ImageView
+        android:id="@+id/airplanesimg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/air"
+        android:scaleType="fitXY"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp"
+
+        >
+
+        <TextView
+            android:id="@+id/txtname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="roomname"
+            android:layout_below="@+id/roomimg"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/txtseat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="roomshift"
+            android:textSize="15dp"
+            android:layout_below="@+id/txtprice"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"
+
+
+            />
+        <TextView
+            android:id="@+id/txtprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="roomprice"
+            android:layout_below="@+id/txtname"
+            android:textSize="15dp"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"
+
+
+
+            />
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btnbooknow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="booknow"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="250dp"
+
+        />
+
+
+</RelativeLayout>
